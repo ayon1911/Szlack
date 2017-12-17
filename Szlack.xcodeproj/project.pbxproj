@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A374EBC1FE11ED2000A6E43 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EBB1FE11ED2000A6E43 /* CreateAccountVC.swift */; };
+		8A374EBF1FE13D37000A6E43 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EBE1FE13D37000A6E43 /* AuthService.swift */; };
+		8A374EC11FE149CC000A6E43 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EC01FE149CC000A6E43 /* RoundedButton.swift */; };
+		8A374EC31FE15241000A6E43 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EC21FE15241000A6E43 /* UserDataService.swift */; };
+		8A374EC51FE26AB7000A6E43 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EC41FE26AB7000A6E43 /* AvatarPickerVC.swift */; };
+		8A374EC71FE26E18000A6E43 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EC61FE26E18000A6E43 /* AvatarCell.swift */; };
+		8A374EC91FE287E4000A6E43 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A374EC81FE287E4000A6E43 /* CircleImage.swift */; };
+		8A40C7991FE11CC400E3490B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C7981FE11CC400E3490B /* LoginVC.swift */; };
 		8A4250A21FDE895D00485DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4250A11FDE895D00485DF4 /* AppDelegate.swift */; };
-		8A4250A41FDE895D00485DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4250A31FDE895D00485DF4 /* ViewController.swift */; };
 		8A4250A71FDE895D00485DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4250A51FDE895D00485DF4 /* Main.storyboard */; };
 		8A4250A91FDE895D00485DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4250A81FDE895D00485DF4 /* Assets.xcassets */; };
 		8A4250AC1FDE895D00485DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4250AA1FDE895D00485DF4 /* LaunchScreen.storyboard */; };
+		8A6E109A1FDEA36A00815C43 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E10981FDEA36A00815C43 /* SWRevealViewController.m */; };
+		8A6E109D1FDEA7C300815C43 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E109C1FDEA7C300815C43 /* GradientView.swift */; };
+		8A6E10A01FDECFCC00815C43 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E109F1FDECFCC00815C43 /* Constants.swift */; };
+		8A8827221FE410C5007E63B2 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8827211FE410C5007E63B2 /* MessageService.swift */; };
+		8A8827241FE41125007E63B2 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8827231FE41125007E63B2 /* Channel.swift */; };
+		8A8827261FE416C0007E63B2 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8827251FE416C0007E63B2 /* ChannelCell.swift */; };
+		8A8827291FE42CE9007E63B2 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8827271FE42CE9007E63B2 /* AddChannelVC.swift */; };
+		8A88272A1FE42CE9007E63B2 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8827281FE42CE9007E63B2 /* AddChannelVC.xib */; };
+		8A94CAE01FE2D9840066B666 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94CADE1FE2D9840066B666 /* ProfileVC.swift */; };
+		8A94CAE11FE2D9840066B666 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A94CADF1FE2D9840066B666 /* ProfileVC.xib */; };
+		8ABAB8391FDE9A5000E09459 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAB8381FDE9A5000E09459 /* ChatVC.swift */; };
+		8ABAB83B1FDE9A6000E09459 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAB83A1FDE9A6000E09459 /* ChannelVC.swift */; };
+		8ACC45D91FE50FAB005BB7A4 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC45D81FE50FAB005BB7A4 /* SocketService.swift */; };
+		8ACC45DB1FE5213C005BB7A4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC45DA1FE5213C005BB7A4 /* Message.swift */; };
+		8ACC45DE1FE52DE4005BB7A4 /* OnKeyboardPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC45DD1FE52DE4005BB7A4 /* OnKeyboardPopView.swift */; };
+		8ACC45E01FE53782005BB7A4 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC45DF1FE53782005BB7A4 /* MessageCell.swift */; };
+		B332B9EEA8EFA7DE89DAD0F2 /* Pods_Szlack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440F5C02AB326314637BD2F6 /* Pods_Szlack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440F5C02AB326314637BD2F6 /* Pods_Szlack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Szlack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E99903DD8570C0378F6110 /* Pods-Szlack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szlack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Szlack/Pods-Szlack.debug.xcconfig"; sourceTree = "<group>"; };
+		5BDD4EF6D1C22D73030959EE /* Pods-Szlack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Szlack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Szlack/Pods-Szlack.release.xcconfig"; sourceTree = "<group>"; };
+		8A374EBB1FE11ED2000A6E43 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		8A374EBE1FE13D37000A6E43 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		8A374EC01FE149CC000A6E43 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		8A374EC21FE15241000A6E43 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		8A374EC41FE26AB7000A6E43 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		8A374EC61FE26E18000A6E43 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		8A374EC81FE287E4000A6E43 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8A40C7981FE11CC400E3490B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8A42509E1FDE895D00485DF4 /* Szlack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Szlack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4250A11FDE895D00485DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A4250A31FDE895D00485DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A4250A61FDE895D00485DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4250A81FDE895D00485DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A4250AB1FDE895D00485DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A4250AD1FDE895D00485DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6E10981FDEA36A00815C43 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8A6E10991FDEA36A00815C43 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8A6E109B1FDEA46100815C43 /* Szlack-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Szlack-Bridge-Header.h"; sourceTree = "<group>"; };
+		8A6E109C1FDEA7C300815C43 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8A6E109F1FDECFCC00815C43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A8827211FE410C5007E63B2 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		8A8827231FE41125007E63B2 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		8A8827251FE416C0007E63B2 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		8A8827271FE42CE9007E63B2 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
+		8A8827281FE42CE9007E63B2 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		8A94CADE1FE2D9840066B666 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8A94CADF1FE2D9840066B666 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		8ABAB8381FDE9A5000E09459 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		8ABAB83A1FDE9A6000E09459 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		8ACC45D81FE50FAB005BB7A4 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		8ACC45DA1FE5213C005BB7A4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8ACC45DD1FE52DE4005BB7A4 /* OnKeyboardPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnKeyboardPopView.swift; sourceTree = "<group>"; };
+		8ACC45DF1FE53782005BB7A4 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B332B9EEA8EFA7DE89DAD0F2 /* Pods_Szlack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75FFEF15F5A2AD860E997B43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E99903DD8570C0378F6110 /* Pods-Szlack.debug.xcconfig */,
+				5BDD4EF6D1C22D73030959EE /* Pods-Szlack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A374EBD1FE13D26000A6E43 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A374EBE1FE13D37000A6E43 /* AuthService.swift */,
+				8A374EC21FE15241000A6E43 /* UserDataService.swift */,
+				8A8827211FE410C5007E63B2 /* MessageService.swift */,
+				8ACC45D81FE50FAB005BB7A4 /* SocketService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8A4250951FDE895D00485DF4 = {
 			isa = PBXGroup;
 			children = (
 				8A4250A01FDE895D00485DF4 /* Szlack */,
 				8A42509F1FDE895D00485DF4 /* Products */,
+				75FFEF15F5A2AD860E997B43 /* Pods */,
+				AC83459D1FF0775AFEABDE6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +129,100 @@
 		8A4250A01FDE895D00485DF4 /* Szlack */ = {
 			isa = PBXGroup;
 			children = (
+				8A94CAE21FE2D9A40066B666 /* XIBS */,
+				8A374EBD1FE13D26000A6E43 /* Services */,
+				8A6E109E1FDECFB900815C43 /* Utilities */,
+				8ABAB8301FDE8EDB00E09459 /* SupportingFiles */,
+				8ABAB8371FDE9A2000E09459 /* Model */,
+				8ABAB8361FDE9A1900E09459 /* View */,
+				8ABAB8351FDE9A1100E09459 /* Controller */,
 				8A4250A11FDE895D00485DF4 /* AppDelegate.swift */,
-				8A4250A31FDE895D00485DF4 /* ViewController.swift */,
 				8A4250A51FDE895D00485DF4 /* Main.storyboard */,
 				8A4250A81FDE895D00485DF4 /* Assets.xcassets */,
 				8A4250AA1FDE895D00485DF4 /* LaunchScreen.storyboard */,
 				8A4250AD1FDE895D00485DF4 /* Info.plist */,
 			);
 			path = Szlack;
+			sourceTree = "<group>";
+		};
+		8A6E109E1FDECFB900815C43 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E109F1FDECFCC00815C43 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8A94CAE21FE2D9A40066B666 /* XIBS */ = {
+			isa = PBXGroup;
+			children = (
+				8A94CADF1FE2D9840066B666 /* ProfileVC.xib */,
+				8A8827281FE42CE9007E63B2 /* AddChannelVC.xib */,
+			);
+			path = XIBS;
+			sourceTree = "<group>";
+		};
+		8ABAB8301FDE8EDB00E09459 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E10991FDEA36A00815C43 /* SWRevealViewController.h */,
+				8A6E10981FDEA36A00815C43 /* SWRevealViewController.m */,
+				8A6E109B1FDEA46100815C43 /* Szlack-Bridge-Header.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8ABAB8351FDE9A1100E09459 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8ABAB8381FDE9A5000E09459 /* ChatVC.swift */,
+				8ABAB83A1FDE9A6000E09459 /* ChannelVC.swift */,
+				8A40C7981FE11CC400E3490B /* LoginVC.swift */,
+				8A374EBB1FE11ED2000A6E43 /* CreateAccountVC.swift */,
+				8A374EC41FE26AB7000A6E43 /* AvatarPickerVC.swift */,
+				8A94CADE1FE2D9840066B666 /* ProfileVC.swift */,
+				8A8827271FE42CE9007E63B2 /* AddChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8ABAB8361FDE9A1900E09459 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC45DC1FE52DAA005BB7A4 /* Extentions */,
+				8A6E109C1FDEA7C300815C43 /* GradientView.swift */,
+				8A374EC01FE149CC000A6E43 /* RoundedButton.swift */,
+				8A374EC61FE26E18000A6E43 /* AvatarCell.swift */,
+				8A374EC81FE287E4000A6E43 /* CircleImage.swift */,
+				8A8827251FE416C0007E63B2 /* ChannelCell.swift */,
+				8ACC45DF1FE53782005BB7A4 /* MessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8ABAB8371FDE9A2000E09459 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A8827231FE41125007E63B2 /* Channel.swift */,
+				8ACC45DA1FE5213C005BB7A4 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ACC45DC1FE52DAA005BB7A4 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8ACC45DD1FE52DE4005BB7A4 /* OnKeyboardPopView.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		AC83459D1FF0775AFEABDE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				440F5C02AB326314637BD2F6 /* Pods_Szlack.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A4250B01FDE895D00485DF4 /* Build configuration list for PBXNativeTarget "Szlack" */;
 			buildPhases = (
+				632932B06D8CF022DAA2A182 /* [CP] Check Pods Manifest.lock */,
 				8A42509A1FDE895D00485DF4 /* Sources */,
 				8A42509B1FDE895D00485DF4 /* Frameworks */,
 				8A42509C1FDE895D00485DF4 /* Resources */,
+				78EFFD306675B79F9BDF87D5 /* [CP] Embed Pods Frameworks */,
+				516CB7A1E7B9036CBC2F745F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +260,7 @@
 				TargetAttributes = {
 					8A42509D1FDE895D00485DF4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +288,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A88272A1FE42CE9007E63B2 /* AddChannelVC.xib in Resources */,
+				8A94CAE11FE2D9840066B666 /* ProfileVC.xib in Resources */,
 				8A4250AC1FDE895D00485DF4 /* LaunchScreen.storyboard in Resources */,
 				8A4250A91FDE895D00485DF4 /* Assets.xcassets in Resources */,
 				8A4250A71FDE895D00485DF4 /* Main.storyboard in Resources */,
@@ -131,13 +298,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		516CB7A1E7B9036CBC2F745F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Szlack/Pods-Szlack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		632932B06D8CF022DAA2A182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78EFFD306675B79F9BDF87D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Szlack/Pods-Szlack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A42509A1FDE895D00485DF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4250A41FDE895D00485DF4 /* ViewController.swift in Sources */,
+				8ACC45DE1FE52DE4005BB7A4 /* OnKeyboardPopView.swift in Sources */,
+				8ACC45D91FE50FAB005BB7A4 /* SocketService.swift in Sources */,
+				8A94CAE01FE2D9840066B666 /* ProfileVC.swift in Sources */,
+				8A8827261FE416C0007E63B2 /* ChannelCell.swift in Sources */,
+				8ABAB83B1FDE9A6000E09459 /* ChannelVC.swift in Sources */,
+				8A374EC51FE26AB7000A6E43 /* AvatarPickerVC.swift in Sources */,
+				8ACC45E01FE53782005BB7A4 /* MessageCell.swift in Sources */,
+				8A374EC11FE149CC000A6E43 /* RoundedButton.swift in Sources */,
+				8ACC45DB1FE5213C005BB7A4 /* Message.swift in Sources */,
+				8A8827241FE41125007E63B2 /* Channel.swift in Sources */,
+				8A374EC91FE287E4000A6E43 /* CircleImage.swift in Sources */,
+				8A8827221FE410C5007E63B2 /* MessageService.swift in Sources */,
+				8ABAB8391FDE9A5000E09459 /* ChatVC.swift in Sources */,
+				8A374EC31FE15241000A6E43 /* UserDataService.swift in Sources */,
+				8A374EBC1FE11ED2000A6E43 /* CreateAccountVC.swift in Sources */,
+				8A374EBF1FE13D37000A6E43 /* AuthService.swift in Sources */,
+				8A40C7991FE11CC400E3490B /* LoginVC.swift in Sources */,
+				8A8827291FE42CE9007E63B2 /* AddChannelVC.swift in Sources */,
+				8A6E109D1FDEA7C300815C43 /* GradientView.swift in Sources */,
+				8A374EC71FE26E18000A6E43 /* AvatarCell.swift in Sources */,
 				8A4250A21FDE895D00485DF4 /* AppDelegate.swift in Sources */,
+				8A6E109A1FDEA36A00815C43 /* SWRevealViewController.m in Sources */,
+				8A6E10A01FDECFCC00815C43 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +508,19 @@
 		};
 		8A4250B11FDE895D00485DF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E99903DD8570C0378F6110 /* Pods-Szlack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG8SXNT28Y;
 				INFOPLIST_FILE = Szlack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.docdevs.Szlack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Szlack/SupportingFiles/Szlack-Bridge-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +528,18 @@
 		};
 		8A4250B21FDE895D00485DF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDD4EF6D1C22D73030959EE /* Pods-Szlack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG8SXNT28Y;
 				INFOPLIST_FILE = Szlack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.docdevs.Szlack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Szlack/SupportingFiles/Szlack-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
