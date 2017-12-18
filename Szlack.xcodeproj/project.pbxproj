@@ -129,6 +129,7 @@
 		8A4250A01FDE895D00485DF4 /* Szlack */ = {
 			isa = PBXGroup;
 			children = (
+				8ABFF8C01FE7EC80005BC90A /* Resources */,
 				8A94CAE21FE2D9A40066B666 /* XIBS */,
 				8A374EBD1FE13D26000A6E43 /* Services */,
 				8A6E109E1FDECFB900815C43 /* Utilities */,
@@ -136,11 +137,6 @@
 				8ABAB8371FDE9A2000E09459 /* Model */,
 				8ABAB8361FDE9A1900E09459 /* View */,
 				8ABAB8351FDE9A1100E09459 /* Controller */,
-				8A4250A11FDE895D00485DF4 /* AppDelegate.swift */,
-				8A4250A51FDE895D00485DF4 /* Main.storyboard */,
-				8A4250A81FDE895D00485DF4 /* Assets.xcassets */,
-				8A4250AA1FDE895D00485DF4 /* LaunchScreen.storyboard */,
-				8A4250AD1FDE895D00485DF4 /* Info.plist */,
 			);
 			path = Szlack;
 			sourceTree = "<group>";
@@ -175,6 +171,7 @@
 		8ABAB8351FDE9A1100E09459 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8A4250A11FDE895D00485DF4 /* AppDelegate.swift */,
 				8ABAB8381FDE9A5000E09459 /* ChatVC.swift */,
 				8ABAB83A1FDE9A6000E09459 /* ChannelVC.swift */,
 				8A40C7981FE11CC400E3490B /* LoginVC.swift */,
@@ -189,6 +186,8 @@
 		8ABAB8361FDE9A1900E09459 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8A4250AA1FDE895D00485DF4 /* LaunchScreen.storyboard */,
+				8A4250A51FDE895D00485DF4 /* Main.storyboard */,
 				8ACC45DC1FE52DAA005BB7A4 /* Extentions */,
 				8A6E109C1FDEA7C300815C43 /* GradientView.swift */,
 				8A374EC01FE149CC000A6E43 /* RoundedButton.swift */,
@@ -207,6 +206,15 @@
 				8ACC45DA1FE5213C005BB7A4 /* Message.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8ABFF8C01FE7EC80005BC90A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A4250A81FDE895D00485DF4 /* Assets.xcassets */,
+				8A4250AD1FDE895D00485DF4 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		8ACC45DC1FE52DAA005BB7A4 /* Extentions */ = {
