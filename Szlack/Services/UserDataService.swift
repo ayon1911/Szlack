@@ -70,14 +70,5 @@ class UserDataService {
         AuthService.instance.authToken = ""
         MessageService.instance.clearChannels()
         MessageService.instance.clearMessages()
-//        SocketService.instance.getTypingusers { (<#[String : String]#>) in
-//            <#code#>
-//        }
     }
 }
-
-
-
-
-
-

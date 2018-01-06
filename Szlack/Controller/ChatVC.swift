@@ -54,14 +54,6 @@ class ChatVC: UIViewController {
             }
         }
         
-//        SocketService.instance.getChatMessage { (success) in
-//            if success {
-//                self.tableView.reloadData()
-//                let endIndex = IndexPath(row: MessageService.instance.messages.count - 1, section: 0)
-//                self.tableView.scrollToRow(at: endIndex, at: .bottom, animated: true)
-//            }
-//        }
-        
         SocketService.instance.getTypingusers { (typingUsers) in
             guard let channelId = MessageService.instance.selectedChannel?.id else { return }
             var names = ""
@@ -201,10 +193,3 @@ extension ChatVC : UITableViewDelegate, UITableViewDataSource {
     }
     
 }
-
-
-
-
-
-
-
